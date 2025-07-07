@@ -10,3 +10,5 @@ build
 
 # Ignore vscode configs
 .vscode
+
+!lib/algs4.jar

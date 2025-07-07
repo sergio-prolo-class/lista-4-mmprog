@@ -22,7 +22,7 @@ dependencies {
     // This dependency is used by the application.
     implementation libs.guava
 
-    implementation 'edu.princeton.cs:algs4:1.0.0.0'
+    implementation files('lib/algs4.jar')
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
@@ -34,7 +34,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'ifsc.poo.App'
+    mainClass = 'ifsc.poo.Main'
 }
 
 jar {
